@@ -34,10 +34,10 @@ function App() {
     <div className="background" style={{backgroundColor: randomColor, transition }}>
       <div id="quote-box">
         <div className="quote-content" style={{color: randomColor, transition }}>
-          <h2 id="text" style={{transition}}>
-            <FaQuoteLeft size="25" style={{marginRight: "10px", transition }} />{quote.quote} <FaQuoteRight size="25" style={{marginRight: "10px", transition }} />
+          <h2 id="text">
+            <FaQuoteLeft size="25" style={{marginRight: "10px" }} />{quote.quote} <FaQuoteRight size="25" style={{marginRight: "10px" }} />
           </h2>
-          <h4 id="author" style={{transition}}>{quote.author}</h4>
+          <h4 id="author">{quote.author}</h4>
         </div>
         <div className="buttons">
           <a 
